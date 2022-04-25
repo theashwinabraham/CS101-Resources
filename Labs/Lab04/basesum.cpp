@@ -1,5 +1,11 @@
-#include <simplecpp>
-main_program{
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
     int b1, n1, cn1 = 0, b2, n2, cn2 = 0;
     cin >> b1 >> n1 >> b2 >> n2;
     int i = 0;
@@ -17,4 +23,5 @@ main_program{
         i++;
     }
     cout << cn1+cn2;
+    return 0;
 }

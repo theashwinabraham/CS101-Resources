@@ -1,4 +1,9 @@
-#include <simplecpp>
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
+#include <iostream>
+using namespace std;
+
 bool lab_marks(int &total_marks){
     int labmarks, min_1, min_2;
     cin >> min_1 >> min_2;
@@ -19,6 +24,7 @@ bool lab_marks(int &total_marks){
     cin >> plagiarism;
     return (plagiarism==1);
 }
+
 bool quiz_marks(int &total_marks){
     int min_quiz = 2, quizmarks;
     for(int i = 0; i<6; i++){
@@ -31,16 +37,19 @@ bool quiz_marks(int &total_marks){
     cin >> cheated;
     return (cheated==1);
 }
+
 int midsem_marks(){
     int midsemmarks;
     cin >> midsemmarks;
     return midsemmarks;
 }
+
 int endsem_marks(){
     int endsemmarks;
     cin >> endsemmarks;
     return endsemmarks;
 }
+
 bool project_marks(int &total_marks){
     int projectmarks;
     cin >> projectmarks;
@@ -51,6 +60,7 @@ bool project_marks(int &total_marks){
     }
     return (plagiarism==1);
 }
+
 int calculate_grade(int total_marks, bool plag_in_quiz, bool plag_in_lab, bool plag_in_project){
     int grade;
     if(total_marks>=0 && total_marks<=30){grade = 0;}

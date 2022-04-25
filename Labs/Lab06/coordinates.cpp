@@ -1,4 +1,9 @@
-#include <simplecpp>
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
+#include <iostream>
+using namespace std;
+
 void print_coordinates(int n){
     int orientation = 0, x = 0, y = 0;
     char input;

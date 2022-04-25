@@ -1,5 +1,10 @@
-#include <simplecpp>
-main_program{
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
+#include <iostream>
+using namespace std;
+
+int main(){
     float BS, HRA, DA, GS; //Basic Salary, HRA, DA, Gross Salary
     cin >> BS;
     if(BS<=10000){ //checking if BA<=10000
@@ -16,4 +21,5 @@ main_program{
     }
     GS = BS+HRA+DA; //Gross salary formula
     cout << GS;
+    return 0;
 }

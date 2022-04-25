@@ -1,5 +1,9 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <simplecpp>
-main_program{
+
+int main(){
     initCanvas();
     Circle c(200, 200, 50); //initialising circle
     int c1 = getClick();
@@ -13,4 +17,5 @@ main_program{
     Rectangle s(200, 200, 100, 100); //drawing square circumscribing the circle
     s.rotate(ang); //rotating square so that it is parallel to line
     wait(5);
+    return 0;
 }

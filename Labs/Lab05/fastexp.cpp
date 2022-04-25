@@ -1,5 +1,10 @@
-#include <simplecpp>
-main_program{
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
+#include <iostream>
+using namespace std;
+
+int main(){
     long long unsigned int x, n, k, prod = 1;
     cin >> x >> n >> k;
     x%=k;
@@ -15,4 +20,5 @@ main_program{
         n/=2;
     }
     cout << prod%k;
+    return 0;
 }

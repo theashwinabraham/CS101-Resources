@@ -1,4 +1,6 @@
-#include <simplecpp>
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 int perfect(int n){
     int sum = 0;
     for(int i = 1; i<n; i++){

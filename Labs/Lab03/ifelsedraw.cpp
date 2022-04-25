@@ -1,5 +1,9 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <simplecpp>
-main_program{
+
+int main(){
     int n;
     cin >> n;
     turtleSim();
@@ -16,4 +20,5 @@ main_program{
         }
     }
     wait(5);
+    return 0;
 }

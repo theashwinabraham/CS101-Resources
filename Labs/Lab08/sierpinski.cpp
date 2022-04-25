@@ -1,4 +1,8 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <simplecpp>
+
 void sierpinski(double s, int t){
     if(t == 1){
         for(int i = 0; i<3; i++){
@@ -20,13 +24,4 @@ void sierpinski(double s, int t){
     forward(s/2);
     left(120);
     return;
-}
-main_program{
-    double s;
-    int t;
-    cin >> s >> t;
-    turtleSim();
-    sierpinski(s, t);
-    hide();
-    wait(2);
 }

@@ -1,5 +1,11 @@
-#include <simplecpp>
-main_program{
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main(){
     int n, p;
     double S = 0;
     cin >> n >> p;
@@ -11,4 +17,5 @@ main_program{
     cout << fixed;
     cout.precision(2);
     cout << pow(S, 1.0/p);
+    return 0;
 }

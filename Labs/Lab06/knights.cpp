@@ -1,4 +1,6 @@
-#include <simplecpp>
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 int is_in_board(int i, int j, int k){
     if(i>=0 && i<k && j>=0 && j<k){return 1;}
     return 0;

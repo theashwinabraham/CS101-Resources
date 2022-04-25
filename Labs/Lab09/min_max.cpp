@@ -1,7 +1,12 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <iostream>
+
 bool is_ext(int a, int b, int c){
     return ((b>a)&&(b>c))||((a>b)&&(c>b));
 }
+
 int main(){
     int n;
     std::cin >> n;

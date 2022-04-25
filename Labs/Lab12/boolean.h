@@ -1,3 +1,6 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <iostream>
 
 const int MAX_SYMBOLS = 5; //useless

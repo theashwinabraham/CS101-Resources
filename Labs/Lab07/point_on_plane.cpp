@@ -1,4 +1,8 @@
-#include <simplecpp>
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
+#include <cmath>
+
 double det(double m_11, double m_12, double m_13,
            double m_21, double m_22, double m_23,
            double m_31, double m_32, double m_33){

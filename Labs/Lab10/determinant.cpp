@@ -1,4 +1,8 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <iostream>
+
 int det(int* ptr, int n){
     if(n==1){
         return *ptr;
@@ -17,6 +21,7 @@ int det(int* ptr, int n){
     }
     return Det;
 }
+
 int main(){
     int n;
     std::cin >> n;

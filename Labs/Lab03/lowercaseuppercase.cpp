@@ -1,5 +1,10 @@
-#include <simplecpp>
-main_program{
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
+#include <iostream>
+using namespace std;
+
+int main(){
     char c;
     cin >> c;
     int x = c; //converting char into int of its ASCII value

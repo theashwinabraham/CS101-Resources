@@ -1,4 +1,8 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <iostream>
+
 bool is_prime(int x, int primes[], int num_primes){
     if(num_primes==0){return true;}
     for(int i = 0; i<num_primes; i++){
@@ -6,6 +10,7 @@ bool is_prime(int x, int primes[], int num_primes){
     }
     return true;
 }
+
 int main(){
     int n;
     std::cin >> n;

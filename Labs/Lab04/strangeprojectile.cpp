@@ -1,5 +1,9 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <simplecpp>
-main_program{
+
+int main(){
     initCanvas();
     int click = getClick();
     Circle c(click/65536, click%65536, 10);
@@ -26,4 +30,5 @@ main_program{
         }
     }
     wait(10);
+    return 0;
 }

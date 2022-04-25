@@ -1,4 +1,7 @@
-#include <simplecpp>
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
+
 //say there were p moves where 2 coins were removed from left and 1 coin was removed from the right and q moves where the opposite happened
 //Both can be emptied if and only if a = 2p+q and b = p+2q for some non-negative integers p and q
 //solving these equations we get p = (2a-b)/3 and q = (2b-a)/3

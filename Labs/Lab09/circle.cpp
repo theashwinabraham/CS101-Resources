@@ -1,4 +1,8 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <simplecpp>
+
 double cradius(int x1, int y1, int x2, int y2, int x3, int y3){
     if((x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2))==0){return 1e100;}
     double d1 = sqrt((x2-x3)*(x2-x3) + (y2-y3)*(y2-y3));
@@ -8,6 +12,7 @@ double cradius(int x1, int y1, int x2, int y2, int x3, int y3){
     double A = sqrt(s*(s-d1)*(s-d2)*(s-d3));
     return d1*d2*d3/(4*A);
 }
+
 double ccentre_x(int x1, int y1, int x2, int y2, int x3, int y3){
     int D = (x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2));
     if(D==0){return -1;}
@@ -15,6 +20,7 @@ double ccentre_x(int x1, int y1, int x2, int y2, int x3, int y3){
     double k = (x1*x1+y1*y1)*(y2-y3)+(x2*x2+y2*y2)*(y3-y1)+(x3*x3+y3*y3)*(y1-y2);
     return k/d;
 }
+
 double ccentre_y(int x1, int y1, int x2, int y2, int x3, int y3){
     int D = (x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2));
     if(D==0){return -1;}
@@ -22,6 +28,7 @@ double ccentre_y(int x1, int y1, int x2, int y2, int x3, int y3){
     double k = (x1*x1+y1*y1)*(x2-x3)+(x2*x2+y2*y2)*(x3-x1)+(x3*x3+y3*y3)*(x1-x2);
     return -k/d;
 }
+
 bool is_in_ccircle(int x_check, int y_check, int x1, int y1, int x2, int y2, int x3, int y3){
     if((x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2))==0){return true;}
     double x = ccentre_x(x1, y1, x2, y2, x3, y3);
@@ -29,6 +36,7 @@ bool is_in_ccircle(int x_check, int y_check, int x1, int y1, int x2, int y2, int
     double r = cradius(x1, y1, x2, y2, x3, y3);
     return ((x_check - x)*(x_check -  x) + (y_check - y)*(y_check - y) <= r*r);
 }
+
 int main(){
     int n;
     cin >> n;

@@ -1,5 +1,10 @@
-#include <simplecpp>
-main_program{
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
+#include <iostream>
+using namespace std;
+
+int main(){
     int n;
     cin >> n;
     cout << 1;
@@ -19,4 +24,5 @@ main_program{
         cout << 1;
         if(i!=n-1){cout << endl;}
     }
+    return 0;
 }

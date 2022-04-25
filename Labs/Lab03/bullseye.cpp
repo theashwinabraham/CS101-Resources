@@ -1,5 +1,9 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <simplecpp>
-main_program{
+
+int main(){
     initCanvas();
     int k = 0;
     Circle c; // initialising circle c
@@ -13,4 +17,5 @@ main_program{
         k++;
     }
     wait(5);
+    return 0;
 }

@@ -1,4 +1,8 @@
-#include <simplecpp>
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
+#include <cmath>
+
 bool is_armstrong(int n){
     int x = n, k = 0, sum = 0;
     for(; n>0; k++){n/=10;}

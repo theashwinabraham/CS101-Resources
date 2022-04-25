@@ -1,5 +1,10 @@
-#include <simplecpp>
-main_program{
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
+#include <iostream>
+using namespace std;
+
+int main(){
     int a, b;
     cin >> a >> b;
     int k = 1;

@@ -1,4 +1,8 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <simplecpp>
+
 void hilbert(double s, int t, int angle){
     if(t==1){
         right(angle);
@@ -21,13 +25,4 @@ void hilbert(double s, int t, int angle){
     hilbert(s, t-1, -angle);
     right(angle);
     return;
-}
-main_program{
-    double s;
-    int t;
-    cin >> s >> t;
-    turtleSim();
-    hilbert(s, t, 90);
-    hide();
-    wait(20);
 }

@@ -1,9 +1,14 @@
-#include <simplecpp>
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <vector>
+using namespace std;
+
 int fact(int n){
     if(n==0){return 1;}
     return n*fact(n-1);
 }
+
 void permute(vector<int> &v, int k){
     vector<int> u = v;
     int num = v.size();
@@ -16,6 +21,7 @@ void permute(vector<int> &v, int k){
     }
     return;
 }
+
 void permutation(int &a, int &b, int &c, int n){
     vector<int> v = {a, b, c};
     permute(v, n-1);
