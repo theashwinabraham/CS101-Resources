@@ -1,5 +1,9 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <simplecpp>
-main_program{
+
+int main(){
     turtleSim(); //creates a turtle and a canvas
     int tick = 1;
     repeat(360){ //drawing the diagram
@@ -16,4 +20,5 @@ main_program{
     forward(59+29-13+2.1+1.7);
     right(180);
     wait(10);
+    return 0;
 }

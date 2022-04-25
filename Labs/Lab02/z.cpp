@@ -1,21 +1,26 @@
-//this program works on other compilers but takes very long to accept an input in Simple CodeBlocks
-#include <simplecpp>
-main_program{
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
+#include <iostream>
+using namespace std;
+
+int main(){
     int n;
     cin >> n;
-    repeat(n){ //printing the first line
+    for(int i = 0; i<n; ++i){ //printing the first line
         cout << "*";
     }
     cout << "\n";
     int i = n-2;
-    repeat(n-2){ //printing the intermediate lines
-        repeat(i){
+    for(int p = 0; p<(n-2); ++p){ //printing the intermediate lines
+        for(int q = 0; q<i; ++q){
             cout << " "; //adding spaces
         }
         cout << "*" << endl; //printing *
         i--;
     }
-    repeat(n){
+    for(int j = 0; j<n; ++j){
         cout << "*"; //printing the last line
     }
+    return 0;
 }

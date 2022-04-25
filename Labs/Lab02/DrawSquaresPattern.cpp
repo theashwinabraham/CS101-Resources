@@ -1,5 +1,9 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <simplecpp>
-main_program{
+
+int main(){
     int n;
     int d = 5; //specified in instructions
     cin >> n; //Inputting size of central square
@@ -16,4 +20,5 @@ main_program{
         forward(d/2); //going back to original position to continue drawing central square
     }
     wait(5);
+    return 0;
 }

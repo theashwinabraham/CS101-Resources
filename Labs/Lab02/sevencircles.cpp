@@ -1,5 +1,9 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <simplecpp>
-main_program{
+
+int main(){
     turtleSim();
     repeat(360){ //draws the central circle
         forward(PI/9); //radius = 20, so forward = 20*pi/180
@@ -16,4 +20,5 @@ main_program{
         }
     }
     wait(5);
+    return 0;
 }

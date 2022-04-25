@@ -1,5 +1,9 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <simplecpp>
-main_program{
+
+int main(){
     turtleSim();
     left(42); //so that finally the turtle point slightly northeast (42 = 90-(30+(360/20)))
     repeat(20){ //design has 20 vertices
@@ -15,4 +19,5 @@ main_program{
         }
     }
     wait(5);
+    return 0;
 }

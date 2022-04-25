@@ -1,5 +1,9 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <simplecpp>
-main_program{
+
+int main(){
     turtleSim();
     repeat(3){ //draws an equilateral triangle
         forward(100);
@@ -12,4 +16,5 @@ main_program{
     left(90);     //draws the rectangle
     forward(150); //draws the rectangle
     wait(5);
+    return 0;
 }

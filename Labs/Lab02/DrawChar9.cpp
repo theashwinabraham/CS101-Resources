@@ -1,5 +1,9 @@
+/*
+* AUTHOR: ASHWIN ABRAHAM
+*/
 #include <simplecpp>
-main_program{
+
+int main(){
     float s; //size variable
     cin >> s; //entering size
     turtleSim(); //creating a Turtle and a Canvas
@@ -12,4 +16,5 @@ main_program{
         forward(s);
     }
     wait(5);
+    return 0;
 }
