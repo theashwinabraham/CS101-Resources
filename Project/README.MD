@@ -1,6 +1,7 @@
 Project Name: Bubble Trouble
 Designed by: Ashwin Abraham (Roll No: 210050023)
 
+Link to Project Specifications: https://docs.google.com/document/d/e/2PACX-1vQ0ame63KZTG2R3mtjqwqj2ei20IahKe6CLt2WaCQlJFHCLf3FILMY_JFMrNTvVGb5nyTi3CvGuSBOG/pub
 
 Link to the Screen Recording: https://drive.google.com/drive/folders/14rpvy25VVuqSpUmfMGUsVmPfY9SkbI-E?usp=sharing
 
