@@ -1,2 +1,1 @@
-Link to Lab 02 problem set:
-https://docs.google.com/document/d/e/2PACX-1vRnpp9IvvqqdwcErmwHih2p8d_e7O0c587zySSbAl18w-JsQ5LJE8yfX48dv4ytLY1l_3hu0GJV0tSL/pub 
+[Link to Lab 02 problem set](https://docs.google.com/document/d/e/2PACX-1vRnpp9IvvqqdwcErmwHih2p8d_e7O0c587zySSbAl18w-JsQ5LJE8yfX48dv4ytLY1l_3hu0GJV0tSL/pub)
