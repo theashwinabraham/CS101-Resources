@@ -9,7 +9,7 @@ Designed by: Ashwin Abraham (Roll No 210050023)
 [Link to Screen Recording](https://drive.google.com/drive/folders/14rpvy25VVuqSpUmfMGUsVmPfY9SkbI-E?usp=sharing)
 
 
-Features added:
+## Features added:
 
 1. The game now has 5 levels. You win the game only by successfully completing all 5 levels. Each level increases
    in difficulty. The only way to go from one level to another is by destroying all the Bubbles in the current
@@ -42,7 +42,7 @@ Features added:
    out whether you have won or lost.
 
 
-To play the game (Starter Code Features):
+## To play the game (starter code features):
 
 1. The Canvas opens on running the code and the game starts on Level 1.
 
