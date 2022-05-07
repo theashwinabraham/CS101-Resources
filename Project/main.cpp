@@ -23,7 +23,7 @@ const int LEFT_MARGIN = 70;
 const int TOP_MARGIN = 20;
 const int BOTTOM_MARGIN = (PLAY_Y_HEIGHT+TOP_MARGIN);
 
-string to_string(int num){
+string toString(int num){
 //converts a non-negative int to a string
     if(num==0){return "0";}
     int reversed_num = 0;
@@ -60,7 +60,7 @@ void bubble_bullet_collision(vector<Bubble> &bubbles, vector<Bullet> &bullets, i
                 bubbles.erase(bubbles.begin()+j);
                 bullets.erase(bullets.begin()+i);
                 score+=2;
-                Score.setMessage(to_string(score));
+                Score.setMessage(toString(score));
                 return;
             }
         }
@@ -76,7 +76,7 @@ bool bubble_shooter_collision(vector<Bubble>& bubbles, Shooter& shooter, int& he
             2*shooter.get_head_radius()){
                 if(!is_in_collision){
                     health--;
-                    Health.setMessage(to_string(health));
+                    Health.setMessage(toString(health));
                     is_in_collision = true;
                 }
                 return true;
@@ -215,15 +215,15 @@ int main(){
             level++;
             TOTAL_TIME-=30;
             HEALTH_MAX--;
-            Level.setMessage(to_string(level));
+            Level.setMessage(toString(level));
             bullets = {};
             health = HEALTH_MAX;
-            Health.setMessage(to_string(health));
+            Health.setMessage(toString(health));
             init_time = time(NULL);
             time_left = TOTAL_TIME;
-            Time.setMessage(to_string(time_left));
+            Time.setMessage(toString(time_left));
             shooter.center();
-            update.setMessage("Level "+to_string(level));
+            update.setMessage("Level "+toString(level));
             update.setColor(COLOR("green"));
             update.show();
             wait(3);
@@ -250,7 +250,7 @@ int main(){
 
         wait(STEP_TIME);
         time_left = TOTAL_TIME + init_time - time(NULL);
-        Time.setMessage(to_string(time_left));
+        Time.setMessage(toString(time_left));
     }
     return 0;
 }
