@@ -208,7 +208,7 @@ int main(){
                 update.setMessage("Congratulations, you have won!");
                 update.setColor(COLOR("green"));
                 update.show();
-                cout << "Congratulations, you have won!" << endl << "Your score is: " << score;
+                cout << "Congratulations, you have won!" << endl << "Your score is: " << score << '\n';
                 wait(5);
                 return 0;
             }
@@ -237,7 +237,7 @@ int main(){
             update.setColor(COLOR("red"));
             update.show();
             wait(5);
-            cout << "Your score is: " << score << endl << "You have lost...";
+            cout << "Your score is: " << score << endl << "You have lost..." << '\n';
             return 0;
         }
 
